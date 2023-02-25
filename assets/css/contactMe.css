@@ -1,0 +1,109 @@
+body {
+    background-color: #D9ACF5;
+}
+
+.title {
+    margin-top: 60px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: poppins;
+}
+
+.container {
+    width: 550px;
+    margin: 0 auto;
+    font-family: poppins;
+}
+
+.container label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.form-name input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-family: poppins;
+    border: none;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 4px 3px #888888;
+}
+
+.form-email input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-family: poppins;
+    border: none;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 4px 3px #888888;
+}
+
+.form-phone input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-family: poppins;
+    border: none;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 4px 3px #888888;
+}
+
+.form-subject select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    border: none;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 4px 3px #888888;
+    font-size: 15px;
+    font-family: poppins;
+}
+
+.form-textarea textarea {
+    width: 100%;
+    padding: 10px 10px 90px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    border: none;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 4px 3px #888888;
+    resize: none;
+    font-family: poppins;
+    font-size: 15px;
+}
+
+.btn-submit button{
+    float: right;
+    border: none;
+    padding: 5px 30px;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-bottom: 50px;
+    color: white;
+    background-color: #000040;
+    box-shadow: 3px 3px 4px 3px #888888;
+    cursor: pointer;
+}
+
+.btn-submit button:hover {
+    float: right;
+    border: none;
+    padding: 5px 30px;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-bottom: 50px;
+    color: white;
+    background-color: #0000ca;
+    box-shadow: 3px 3px 4px 3px #888888;
+    cursor: pointer;
+}
+

@@ -1,0 +1,110 @@
+body {
+    background-color: #D9ACF5;
+}
+
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 0 20px #bdadad;
+    margin: 70px auto;
+    width: 1200px;
+    font-family: poppins;
+    background-color: white;
+}
+
+.right-content {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 0 15px #bdadad;
+    width: 100%;
+    margin: 50px 50px;
+    background-color: white;
+    flex: 40%;
+}
+
+.right-content img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.right-content h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.right-content p {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.left-content {
+    flex: 60%;
+    padding: 90px 50px 60px;
+    text-align: justify;
+}
+
+.left-content h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.left-content p {
+    margin-bottom: 50px;
+}
+
+.contact .btn-contact {
+    font-size: 18px;
+    padding: 5px 30px;
+    border-radius: 40px;
+    margin-right: 15px;
+    color: white;
+    background-color: #000040;
+    text-decoration: none;
+}
+
+.contact .btn-contact:hover {
+    font-size: 18px;
+    padding: 5px 30px;
+    border-radius: 40px;
+    margin-right: 15px;
+    color: white;
+    background-color: #0000ca;
+    text-decoration: none;
+}
+
+.contact .btn-cv {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+.contact .btn-icon {
+    color: black;
+}
+
+.icon {
+    display: flex;
+    margin-top: 70px;
+}
+
+.icon .icon1 a {
+    color: black;
+    margin-right: 40px;
+}
+
+.icon .icon2 a {
+    color: black;
+    margin-right: 40px;
+}
+
+.icon .icon3 a {
+    color: black;
+    margin-right: 40px;
+}
+
+.icon .icon4 a {
+    color: black;
+}

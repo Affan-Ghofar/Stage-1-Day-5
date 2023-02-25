@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="assets/css/navBar.css">
+    <link rel="stylesheet" href="assets/css/contactMe.css">
+    <title>Contact Me</title>
+</head>
+<body>
+<!-- NavBar Start -->
+<nav>
+    <div class="left-side">
+        <a href="index.html">
+            <img src="assets/images/logo.png" alt="logo" id="image"/>
+        </a>
+        
+        <ul>
+            <li>
+                <a href="index.html" class="btn-home">Home</a>
+            </li>
+            <li>
+                <a href="addProject.html" class="btn-myProject">My Project</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="right-side">
+        <a href="contactMe.html">Contact Me</a>
+    </div>
+</nav>
+<!-- NavBar End -->
+
+
+<!-- Form Start -->
+    <h1 class="title">GET IN TOUCH</h1>
+    <form class="container">
+        <div class="form-name">
+            <label for="name">Name</label>
+            <input id="name" type="text">
+        </div>
+        <div class="form-email">
+            <label for="email">Email</label>
+            <input id="email" type="text">
+        </div>
+        <div class="form-phone">
+            <label for="phone">Phone Number</label>
+            <input id="phone" type="text">
+        </div>
+
+        <div class="form-subject">
+            <label for="subject">Subject</label>
+            <select id="subject">
+                <option></option>
+                <option>Frontend</option>
+                <option>Backend</option>
+                <option>Fullstack</option>
+            </select>
+        </div>
+
+        <div class="form-textarea">
+            <label for="message">Your Massage</label>
+            <textarea id="message" spellcheck="false"></textarea>
+        </div>
+
+        <div class="btn-submit">
+            <button type="button" onclick="getData()">submit</button>
+        </div>
+    </form>
+<!-- Form End -->
+
+<!-- To connect script JS -->
+<script src="assets/JS/mailSubmission.js"></script>
+</body>
+</html>
